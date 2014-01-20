@@ -5,6 +5,8 @@ Twitter: @CodingFree
 
 License: Mozilla Public License Version 2.0 ( http://www.mozilla.org/MPL/2.0/ )
 
+Thanks to: Timothy Chien!
+
 ### Copy Paste for Firefox OS.
 This is a first approach to implement the copy/paste in Firefox OS. It will be available to install from the Marketplace, but you could also push this as an app using the App Manager.
 
