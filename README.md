@@ -1,6 +1,8 @@
 ### Developed by CodingFree
 Linkedin: http://es.linkedin.com/in/madridcrespo/en
+
 Twitter: @CodingFree
+
 License: Mozilla Public License Version 2.0 ( http://www.mozilla.org/MPL/2.0/ )
 
 ### Copy Paste for Firefox OS.
@@ -24,4 +26,4 @@ And this is how it looks like:
 
 It uses localStorage as a clipboard and it would make you able to copy strings from one app to another. I have tried it between a the mail client and a notes app.
 
-In future releases,** it will be able even to copy non-string objects**.
+In future releases, **it will be able even to copy non-string objects**.
