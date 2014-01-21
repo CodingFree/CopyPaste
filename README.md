@@ -17,8 +17,15 @@ For example:
 2. And switch to the Copy Paste keyboard using the following key:
 ![Switching to the Copy/Paste keyboard.](http://imgur.com/ofk5gD6,png)
 
+
 And this is how it looks like:
 ![Cool, uh?](http://imgur.com/paTwuEB.png)
+
+
+***
+
+### HOWTO 
+Recorded by @trufae: https://www.dropbox.com/s/778soipo3to7hsq/VID-20140121-WA0001.mp4
 
 
 ***
