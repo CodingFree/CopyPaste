@@ -1,0 +1,36 @@
+### Desenvolupat per CodingFree
+Linkedin: http://es.linkedin.com/in/madridcrespo/en
+
+Twitter: @CodingFree
+
+Llicència: Mozilla Public License Version 2.0 ( http://www.mozilla.org/MPL/2.0/ )
+
+Agraïments: Timothy Chien!
+
+### Copiar i enganxar per a Firefox OS.
+Aquest és un primer intent d'implementar el copiar/enganxar al Firefox OS. És disponible per instal·lar des del Marketplace, però també podríeu fer un "push" de la app emprant el gestor de apps.
+
+Per exemple:
+![Usant l'App Manager per instal·lar el Copy Paste Keyboard](http://i.imgur.com/VPo913M.png)
+
+1. Necessitareu habilitar el teclat a la llista de teclats a la app de Paràmetres del sistema. 
+2. I per usar-ho haureu de prèmer la tecla de "canvi de teclat" (a l'esquerra de la barra d'espai):
+![Canviant al teclat de copiar/enganxar.](http://imgur.com/ofk5gD6,png)
+
+And this is how it looks like:
+![Guai, eh?](http://imgur.com/paTwuEB.png)
+
+
+***
+
+### GUIA D'ÚS 
+Gravada per @trufae: https://www.dropbox.com/s/778soipo3to7hsq/VID-20140121-WA0001.mp4
+
+
+***
+
+** Actualment, aquesta app copia tot el text complert que hi hagi al control de formulari en qüestió. És a dir, si aquest text conté 200 caràcters, tots seran copiats! En **futures versions**, serà possible copiar només un troç del text però. _A més, aquesta versió no permet copiar cadenes de text que no siguin a dintre d'una caixa d'un formulari_.
+
+Aquest app empra localStorage com un porta-retalls ("clipboard") i ens permet copiar cadenes de text d'una app a una altra, per exemple: entre el client de correu i la app de notes.
+
+En futures versions, **serà possible copiar fins i tot objectes que no siguin text**.
