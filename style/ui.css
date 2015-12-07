@@ -1,6 +1,7 @@
     .button
     {        
-        display: inline-block;
+        display: block;
+        height: 1rem;
         white-space: nowrap;
         background-color: #ddd;
         background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
@@ -9,19 +10,19 @@
         background-image: -ms-linear-gradient(top, #eee, #ccc);
         background-image: -o-linear-gradient(top, #eee, #ccc);
         background-image: linear-gradient(top, #eee, #ccc);
-        border: 1px solid #777;
-        padding: 1em 1.5em;
+        padding: 1em;
         margin: 1em;
-        font: bold 1.5em Arial, Helvetica;
+        line-height:0.8em;
         text-decoration: none;
         color: #333;
+        border-radius: 1.7em;
+            -moz-border-radius: 1.7em;
+            -webkit-border-radius: 1.7em;
         text-shadow: 0 1px 0 rgba(255,255,255,.8);
-        -moz-border-radius: .2em;
-        -webkit-border-radius: .2em;
-        border-radius: .2em;
-        -moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
-        -webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
         box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+            -moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+            -webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+        cursor:pointer;
     }
     
     .button:hover
@@ -52,21 +53,17 @@
     
     .button:before
     {
-        background: #ccc;
-        background: rgba(0,0,0,.1);
         float: left;        
         width: 1em;
         text-align: center;
-        font-size: 1.5em;
-        margin: 0 1em 0 -1em;
-        padding: 0 .2em;
-        -moz-box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
-        -webkit-box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
-        box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
-        -moz-border-radius: .15em 0 0 .15em;
-        -webkit-border-radius: .15em 0 0 .15em;
-        border-radius: .15em 0 0 .15em;     
-        pointer-events: none;       
+        font-size: 1.7em;
+        margin: 0; margin-right:0.5em;
+        padding: 0;
+        pointer-events: none;
+    }
+    
+    .back{  
+        font-style: italic;
     }
     
     /* Buttons and inputs */
@@ -105,6 +102,14 @@
     }
     
     /* Hexadecimal entities for the icons */
+    
+    .back:before
+    {   /*
+        content: "\276E";
+        margin-top:-0.1em;
+        */
+        content: "\2328";
+    }
     
     .add:before
     {
@@ -156,61 +161,5 @@
         content: "\25B6";
     }
 
-    .back:before
-    {
-        content: "\276E";
-    }
 
 
-    /* Social media buttons */  
-    .tw, .fb,
-    .tw:hover, .fb:hover
-    {
-        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.5)), to(rgba(255,255,255,0)));
-        background-image: -webkit-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
-        background-image: -moz-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
-        background-image: -ms-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
-        background-image: -o-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
-        background-image: linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
-    }
-
-    .tw, .tw:focus
-    {
-      background-color: #88E1E6;
-    }
-    
-    .fb, .fb:focus
-    {
-      background-color: #3C5A98;
-      color: #fff;    
-      text-shadow: 0 1px 0 rgba(0,0,0,.4);      
-    }
-
-    .tw:hover
-    {
-      background-color: #b1f0f3;
-    }
-    
-    .fb:hover
-    {
-      background-color: #879bc3; 
-    }
-    
-    .tw:before
-    {
-        content: "t";
-        background: #91cfd3;
-        background: rgba(0,0,0,.1);     
-        color: #fff;
-        font-family: verdana;
-        text-shadow: 0 1px 0 rgba(0,0,0,.4);
-    }
-    
-    .fb:before
-    {
-        content: "f";
-        background: #4467ac;
-        background: rgba(0,0,0,.1);     
-        color: #fff;    
-        text-shadow: 0 1px 0 rgba(0,0,0,.4);
-    }

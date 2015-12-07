@@ -1,0 +1,36 @@
+### Desarrollado por CodingFree
+Linkedin: http://es.linkedin.com/in/madridcrespo/en
+
+Twitter: @CodingFree
+
+Licencia: Mozilla Public License Version 2.0 ( http://www.mozilla.org/MPL/2.0/ )
+
+Agradecimientos: Timothy Chien!
+
+### Copiar y pegar para Firefox OS.
+Este es un primer intento de implementar el copiar/pegar en Firefox OS. Está disponible para instalar desde el Marketplace, pero también podría hacer un "push" de la app usando el gestor de apps.
+
+Por ejemplo:
+![Usando el gestor de apps para instalar el Copy Paste Keyboard](http://i.imgur.com/VPo913M.png)
+
+1. Necesitará habilitar el teclado en la lista de teclados en la app de Ajustes del sistema. 
+2. Y para usarlo deberá pulsar la tecla "cambio de teclado" (a la izquierda de la barra espaciadora):
+![Cambiando al teclado de copiar/pegar.](http://imgur.com/ofk5gD6,png)
+
+Y así es como luce:
+![Guay, eh?](http://imgur.com/paTwuEB.png)
+
+
+***
+
+### GUIA DE USO
+Grabada por @trufae: https://www.dropbox.com/s/778soipo3to7hsq/VID-20140121-WA0001.mp4
+
+
+***
+
+** Actualmente, esta app copia todo el texto completo que haya en un control de formulario. Es decir, que si el texto contiene 200 caràcteres, todos ellos son copiados! En **futuras versiones**, será posible copiar solamente un trozo del texto. _Además, esta versión no permite copiar cadenas de texto que no estén dentro de una caja de un formulario_.
+
+Aquest app empra localStorage com un porta-retalls ("clipboard") i ens permet copiar cadenes de text d'una app a una altra, per exemple: entre el client de correu i la app de notes.
+
+En futuras versiones, **será posible copiar también objetos que no sean texto** (imágenes, por ejemplo).

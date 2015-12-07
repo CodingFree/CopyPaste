@@ -7,12 +7,18 @@
   <script type="text/javascript" src="js/main.js"></script>
   <link rel="stylesheet" type="text/css" href="style/keyboard.css" />
   <link rel="stylesheet" type="text/css" href="style/ui.css" />
+
+  <!-- === locale translation technology === -->
+  <script defer src="js/lib/l10n.js"></script>
+  <link rel="ressource" type="application/l10n" href="locales/locales.ini">
+
 </head>
 <body>
   <div id="keyboard">
-    <a id="copyKey" class="button add">Copy</a>
-    <a id="pasteKey" class="button edit">Paste</a></br>
-    <a id="switchLayout" class="button back">Change to keyboard</a></br>
+    <a id="copyKey" class="button add" data-l10n-id="copy">Copy</a>
+    <a id="pasteKey" class="button edit" data-l10n-id="paste">Paste</a><br />
+    <a id="switchLayout" class="button back" data-l10n-id="back-to-keyboard">Change to keyboard</a>
   </div>
+    
 </body>
 </html>
