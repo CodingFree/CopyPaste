@@ -5,7 +5,11 @@ Twitter: @CodingFree
 
 License: Mozilla Public License Version 2.0 ( http://www.mozilla.org/MPL/2.0/ )
 
-Thanks to: Timothy Chien!
+***
+
+### Thanks to
+**Sergi (caos30)** for helping to update the UI: https://github.com/caos30/CopyPaste
+
 
 ### Copy Paste for Firefox OS.
 This is a first approach to implement the copy/paste in Firefox OS. It will be available to install from the Marketplace, but you could also push this as an app using the App Manager.
@@ -15,17 +19,12 @@ For example:
 
 1. You will need to enable the keyboard in the Keyboards list. 
 2. And switch to the Copy Paste keyboard using the following key:
-![Switching to the Copy/Paste keyboard.](http://imgur.com/ofk5gD6,png)
+![Switching to the Copy/Paste keyboard.](http://imgur.com/ofk5gD6.png)
 
 
 And this is how it looks like:
-![Cool, uh?](http://imgur.com/paTwuEB.png)
 
-
-***
-
-### HOWTO 
-Recorded by @trufae: https://www.dropbox.com/s/778soipo3to7hsq/VID-20140121-WA0001.mp4
+![Cool, uh?](http://imgur.com/ro2WRhH.png)
 
 
 ***
